@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/magnates/test.magnatesage.net   
+        - /bin cp * $DEPLOYPATH                                   #copy all from root 
